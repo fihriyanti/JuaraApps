@@ -27,7 +27,7 @@ export default class LoginScreen extends Component {
                             <Input placeholder='Password' />
                         </Item>
                         <Button full rounded
-                            onPress={() => this.props.navigation.navigate('HomeScreen')}
+                            onPress={() => this.props.navigation.navigate('HomeTabScreen')}
                             style={styles.btnLogin}
                         >
                             <Text style={styles.txtBtnLogin}>LOGIN</Text>

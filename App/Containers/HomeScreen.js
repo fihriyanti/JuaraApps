@@ -32,7 +32,7 @@ export default class HomeScreen extends Component {
                             <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
                                 <Card style={styles.card}>
                                     <CardItem cardBody>
-                                        <Text style={styles.txtCard}>KLINIS</Text>
+                                        <Text style={styles.txtCard} onPress={() => this.props.navigation.navigate('BlokKlinisScreen')}>KLINIS</Text>
                                     </CardItem>
                                 </Card>
                                 <Card style={styles.card}>
